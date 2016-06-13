@@ -1,0 +1,16 @@
+﻿Build started 12/06/2016 21:49:49.
+     1>Project "C:\Users\Anderson\Documents\GitHub\C_Cplusplus\Socket\01_hello_word\serverTest\serverTest\serverTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt server.cpp serverTest.cpp
+         server.cpp
+     1>c:\users\anderson\documents\github\c_cplusplus\socket\01_hello_word\servertest\servertest\server.cpp(31): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+         Generating Code...
+         Compiling...
+         serverTest.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Anderson\Documents\GitHub\C_Cplusplus\Socket\01_hello_word\serverTest\serverTest\serverTest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.82
